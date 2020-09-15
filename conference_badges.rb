@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
@@ -31,3 +32,19 @@ def printer(array)
       puts elements 
     end
   end 
+=======
+people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+     
+ef batch_badge_creator(people)
+  badges = []
+  people.each do |name| 
+    badges.push("Hello, my name is #{name}.")
+end
+return badges
+end
+d
+>>>>>>> 637381fae235b18538d85c4d27101395f21584a4
